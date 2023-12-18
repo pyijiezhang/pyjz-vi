@@ -1,3 +1,26 @@
+Metadata-Version: 2.1
+Name: bayesian-torch
+Version: 0.4.0
+Summary: A library for Bayesian neural network layers and uncertainty estimation in Deep Learning
+Home-page: https://github.com/IntelLabs/bayesian-torch
+Author: Intel Labs
+Author-email: ranganath.krishnan@intel.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: torch>=1.7.0
+Requires-Dist: torchvision>=0.8.1
+Requires-Dist: tensorboard>=1.15.0
+Requires-Dist: scikit-learn>=0.20.3
+
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/IntelLabs/bayesian-torch/5a4793ba0a54660c891df8af0d5729e840340a88/assets/bayesian-torch.png" width="500px">
