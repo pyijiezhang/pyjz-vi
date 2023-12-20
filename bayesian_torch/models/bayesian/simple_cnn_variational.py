@@ -72,7 +72,7 @@ class SCNN(nn.Module):
         kl_sum += kl
         x = F.relu(x)
         x = self.dropout2(x)
-        x, kl = self.fc2(x)
+        output, kl = self.fc2(x)
         kl_sum += kl
-        output = F.log_softmax(x, dim=1)
+        # output = F.log_softmax(x, dim=1)
         return output, kl_sum
